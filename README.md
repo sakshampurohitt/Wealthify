@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Wealthify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Wealthify is a personal finance tracker web app designed specifically for students to efficiently manage their wealth. With Wealthify, users can track their income, expenses, and overall financial health, all from a single, intuitive interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Firebase Authentication**: Secure login with Google or Email/Password.
+- **Firebase Firestore**: Real-time data storage and retrieval for transactions.
+- **Ant Design**: Sleek and responsive UI components for a modern look and feel.
+- **Income and Expense Tracking**: Easily add, manage, and categorize your transactions.
+- **Financial Statistics**: Visualize your spending and income trends with interactive charts.
+- **CSV Export**: Export your transactions to CSV for offline analysis.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run Wealthify locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- **Node.js**: Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
+- **npm**: Node Package Manager (npm) comes with Node.js. You can verify the installation by running `npm -v` in your terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone the Repository
 
-### `npm run build`
+```bash
+git clone https://github.com/sakshampurohitt/wealthify.git
+cd wealthify
+Install Dependencies
+Run the following command to install all the necessary packages:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Set Up Firebase
+Create a Firebase Project: Go to the Firebase Console and create a new project.
+Enable Authentication: Under the "Build" section, go to "Authentication" and enable Google and Email/Password sign-in methods.
+Create a Firestore Database: Under the "Build" section, go to "Firestore Database" and create a new database.
+Add Firebase Configuration: Replace the Firebase configuration in src/firebase.js with your project's configuration details. You can find this information in your Firebase project settings.
+Run the Application
+Start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
+Contributing
+If you'd like to contribute to Wealthify, please follow these steps:
 
-### `npm run eject`
+Fork the Repository: Click the "Fork" button at the top right of the repository page.
+Create a New Branch: Create a new branch for your changes.
+git checkout -b feature/your-feature
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git commit -am 'Add new feature'
+git commit -am 'Add new feature'
+Push to the Branch: Push your changes to your forked repository
+git push origin feature/your-feature
+'''
+Submit a Pull Request: Go to the original repository and open a pull request with a description of your changes.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contact
+For any questions or feedback, please reach out to:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: 02saksham.purohit@gmail.com
+GitHub: sakshampurohitt
+Thank you for using Wealthify! We hope it helps you manage your personal finances with ease.
