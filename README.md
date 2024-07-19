@@ -14,4 +14,4 @@ I am looking for contributors to help enhance Wealthify. Specifically, I need as
 
 For questions or feedback, please reach out to me at 02saksham.purohit@gmail.com or visit my GitHub profile at sakshampurohitt.
 
-Thank you for using Wealthify! I hope it helps you manage your personal finances with ea
+Thank you for using Wealthify! I hope it helps you manage your personal finances with ease.
